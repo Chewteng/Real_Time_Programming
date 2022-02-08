@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "javac --source-path src -d bin src/*.java",
+      "run": "java -cp bin MyPrimeNumber",
+      "input": "20",
+      "output": "52",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

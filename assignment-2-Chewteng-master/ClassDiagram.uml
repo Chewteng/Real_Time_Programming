@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>my.uum</OriginalElement>
+  <nodes>
+    <node x="256.9064102564102" y="884.0">my.uum.App</node>
+    <node x="806.3647435897435" y="366.0">my.uum.GetStudentList</node>
+    <node x="506.3647435897435" y="366.0">my.uum.GetGithubLink</node>
+    <node x="0.0" y="0.0">my.uum.StudentData3</node>
+    <node x="119.61474358974351" y="690.0">my.uum.telegramBot</node>
+    <node x="8.0" y="983.0">my.uum.StudentData2</node>
+    <node x="454.83333333333326" y="22.0">my.uum.StudentData</node>
+    <node x="0.0" y="1132.0">my.uum.GetYoutubeLink</node>
+    <node x="196.36474358974354" y="289.0">my.uum.Main</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.39357729648991785" x="506.0" y="659.5" />
+  <SelectedNodes>
+    <node>my.uum.App</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

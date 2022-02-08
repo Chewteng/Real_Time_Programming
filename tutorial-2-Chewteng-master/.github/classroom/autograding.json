@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "TestCompile",
+      "setup": "",
+      "run": "javac MyRunnable.java",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TestRun",
+      "setup": "javac MyRunnable.java",
+      "run": "java -cp . MyRunnable",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TestResult",
+      "setup": "javac MyRunnable.java",
+      "run": "java -cp . MyRunnable",
+      "input": "500\r\n510",
+      "output": "505",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

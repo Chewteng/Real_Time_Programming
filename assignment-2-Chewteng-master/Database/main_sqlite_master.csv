@@ -1,0 +1,17 @@
+table,GithubLink,GithubLink,2,"CREATE TABLE GithubLink(Matric INTEGER PRIMARY KEY, Name TEXT, GithubLink VARCHAR NOT NULL, GithubName TEXT)"
+table,YoutubeLink,YoutubeLink,5,"CREATE TABLE YoutubeLink(GithubName TEXT, YoutubeLink VARCHAR)"
+table,StudentDetails,StudentDetails,7,"CREATE TABLE StudentDetails(
+  Matric TEXT,
+  Name TEXT,
+  GithubLink TEXT,
+  GithubName TEXT
+)"
+table,StudentData,StudentData,6,"CREATE TABLE StudentData(
+  Matric TEXT,
+  Name TEXT,
+  GithubName TEXT,
+  GithubLink TEXT,
+  YoutubeLink TEXT
+, YoutubeName TEXT)"
+table,StudentList,StudentList,3,"CREATE TABLE StudentList(Matric VARCHAR PRIMARY KEY, Name TEXT)"
+index,sqlite_autoindex_StudentList_1,StudentList,4,
